@@ -15,8 +15,8 @@ function App() {
       <NavMenu/>
       <Routes>
        <Route path="/" element={<Dashboard />} />
-        <Route path="posts" element={<Posts />} />
-        <Route path="links" element={<Links />}/>
+        <Route path="/posts" element={<Posts />} />
+        <Route path="/links" element={<Links />}/>
       </Routes>
     </Router>
   );
